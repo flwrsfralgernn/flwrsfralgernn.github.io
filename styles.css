@@ -65,6 +65,10 @@ details ul {
   margin-left: 0.6em;
 }
 
+details > p {
+  margin-left: 1.5em;
+}
+
 a {
   color: #0000ee;
   text-decoration: underline;
