@@ -27,6 +27,23 @@ p {
   margin: 0.7em 0;
 }
 
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 1.5em;
+}
+
+.intro p {
+  flex: 1;
+  margin-top: 0;
+}
+
+.intro img {
+  width: 230px;
+  height: auto;
+}
+
 ul {
   margin: 0.5em 0 1em;
   padding-left: 2em;
@@ -34,6 +51,18 @@ ul {
 
 li {
   margin: 0.25em 0;
+}
+
+details {
+  margin: 0.9em 0;
+}
+
+summary {
+  cursor: pointer;
+}
+
+details ul {
+  margin-left: 0.6em;
 }
 
 a {
@@ -52,5 +81,14 @@ a:visited {
 @media (max-width: 600px) {
   body {
     margin: 20px 18px 50px;
+  }
+
+  .intro {
+    display: block;
+  }
+
+  .intro img {
+    width: min(280px, 100%);
+    margin-top: 0.7em;
   }
 }
