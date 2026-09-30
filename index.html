@@ -32,7 +32,7 @@
 
       <details>
         <summary><strong>University of California, Irvine</strong> — Bachelor of Science, Computer Engineering; expected July 2028</summary>
-        <p><strong>Activities:</strong> Financial Officer, ZOTBotics; UAV Forge Perception Team.</p>
+        <p><strong>Activities:</strong> Financial Officer, ZOTBotics; Treasurer, UCI Transfers Club.</p>
       </details>
 
       <details>
@@ -46,24 +46,24 @@
       <details>
         <summary><strong>AMR Automation Intern, Wellwit Robotics</strong> — Los Angeles, CA; August 2026 - present</summary>
         <ul>
-          <li>Fine-tuning and validating onboard AMR sensors and perception parameters to improve data quality for localization and navigation.</li>
-          <li>Working with ROS 2 and SLAM pipelines to build maps, evaluate localization, and troubleshoot navigation behavior while assisting with telemetry collection, issue reproduction, and system-parameter tuning.</li>
+          <li>Tune and validate onboard AMR sensors and perception parameters to improve data quality and reliability for localization and navigation.</li>
+          <li>Use ROS 2 and SLAM pipelines to build maps, evaluate localization, reproduce system issues, collect telemetry, and troubleshoot navigation behavior through system-parameter tuning.</li>
         </ul>
       </details>
 
       <details>
         <summary><strong>Robotics Intern, MAXIEYE</strong> — Shanghai, China; May 2026 - August 2026</summary>
         <ul>
-          <li>Built an NVIDIA Isaac Sim synthetic data pipeline for robotic tube grasping with domain randomization, exporting RGB, depth, segmentation, and bounding-box annotations.</li>
-          <li>Generated and validated over 2,000 robot demonstrations totaling 350,000 synchronized frames with RGB camera footage, 7-DOF joint states, and action targets.</li>
-          <li>Fine-tuned YOLO11 segmentation and pi0.5 VLA models on simulated and teleoperated data using Colab and physical GPUs, and conducted reinforcement learning in Isaac Lab for sim-to-real deployment.</li>
-          <li>Aligned RGB segmentation masks with depth, back-projected pixels into 3D point clouds, estimated tube centers, and generated grasp candidates ranked by IK feasibility and collision clearance.</li>
-          <li>Developed a humanoid robot trajectory-cleaning pipeline using spike removal, Savitzky-Golay and One Euro filtering, with forward-kinematics validation to reduce motion noise while preserving end-effector accuracy.</li>
+          <li>Built an NVIDIA Isaac Sim synthetic-data pipeline for robotic tube grasping with domain randomization, exporting RGB, depth, segmentation, and bounding-box annotations.</li>
+          <li>Generated and validated over 2,000 robot demonstrations totaling 350,000 synchronized frames with RGB camera data, 7-DOF joint states, and action targets.</li>
+          <li>Fine-tuned YOLO11 segmentation and pi0.5 vision-language-action models on simulated and teleoperated data using cloud and physical GPUs, and conducted reinforcement-learning experiments in Isaac Lab for sim-to-real deployment.</li>
+          <li>Aligned RGB segmentation masks with depth, back-projected pixels into 3D point clouds, estimated object centers, and generated grasp candidates ranked by inverse-kinematics feasibility and collision clearance.</li>
+          <li>Developed a humanoid robot trajectory-processing pipeline using spike removal, Savitzky-Golay and One Euro filtering, with forward-kinematics validation to reduce motion noise while preserving end-effector accuracy.</li>
         </ul>
       </details>
 
       <details>
-        <summary><strong>AI Dev, Amazon Web Services / Cal Poly SLO DxHub</strong> — San Luis Obispo, CA; June 2025 - August 2025</summary>
+        <summary><strong>AI Developer, Amazon Web Services / Cal Poly SLO DxHub</strong> — San Luis Obispo, CA; June 2025 - August 2025</summary>
         <ul>
           <li>Selected for an 80-person internship cohort from more than 1,400 applicants.</li>
           <li>Built a production-ready NumPy and pandas pipeline to clean and normalize more than 5,000 institutional receipt records.</li>
@@ -74,28 +74,36 @@
       <h2>Projects</h2>
 
       <details>
+        <summary><strong>NormaCore ELRobot</strong></summary>
+        <ul>
+          <li>Integrated and calibrated 6-DOF leader-follower robot arms using ST3215 serial-bus servos and servo driver boards; debugged power, USB-serial, bus communication, motor-ID, and wiring issues across the hardware stack.</li>
+          <li>Configured robot joint limits and actuator stiffness/damping for simulation and prepared a leader-follower teleoperation pipeline for collecting manipulation demonstrations.</li>
+        </ul>
+      </details>
+
+      <details>
         <summary><strong>UAV Geospatial Target Fusion</strong></summary>
         <ul>
-          <li>Built an Isaac Sim synthetic-perception pipeline to generate UAV imagery with randomized camera poses and environmental conditions for YOLO object-detection training.</li>
-          <li>Developing a multi-view localization pipeline that projects 2D detections into 3D rays using camera intrinsics and poses, then fuses observations to estimate target locations.</li>
+          <li>Built an Isaac Sim synthetic-perception pipeline to generate UAV imagery with randomized camera poses and environmental conditions, exporting datasets for YOLO object-detection training.</li>
+          <li>Developing a multi-view localization pipeline that projects 2D detections into 3D world-space rays using camera intrinsics and poses, then fuses observations to estimate target locations.</li>
         </ul>
       </details>
 
       <details>
         <summary><strong>Libreye Eagle</strong></summary>
         <ul>
-          <li>Built a privacy-focused security camera system using Frigate NVR, Docker, and a fine-tuned YOLO11 object-detection model.</li>
-          <li>Designed and 3D-printed a thermally managed enclosure and assembled camera modules with power controls, microSD storage, and battery support.</li>
-          <li>Configured FFmpeg, RTSP, and Ethernet streaming on a home server for low-latency video processing and local data ownership.</li>
+          <li>Built a privacy-focused security-camera system using Frigate NVR, Docker, and a fine-tuned YOLO11 object-detection model.</li>
+          <li>Designed and 3D-printed a thermally managed enclosure and integrated camera modules, power controls, microSD storage, and battery support.</li>
+          <li>Configured FFmpeg, RTSP, and Ethernet streaming on a local server for low-latency video processing and local data ownership.</li>
         </ul>
       </details>
 
       <h2>Technical skills</h2>
 
-      <p><strong>Programming:</strong> Python, C++, C, CUDA, x86 Assembly, Java, SQL</p>
-      <p><strong>Robotics and simulation:</strong> Isaac Sim, Isaac Lab, ROS 2, SLAM</p>
+      <p><strong>Programming:</strong> C++, C, Python, CUDA, x86 Assembly, Java, SQL</p>
+      <p><strong>Robotics and systems:</strong> ROS 2, SLAM, Isaac Sim, Isaac Lab, Linux</p>
       <p><strong>Machine learning and computer vision:</strong> PyTorch, TensorFlow, NumPy, pandas</p>
-      <p><strong>Developer tools:</strong> Git, Docker, MATLAB, Linux, AWS</p>
+      <p><strong>Developer tools:</strong> Git, Docker, MATLAB, AWS</p>
 
       <p class="end"><a href="#top">top</a></p>
     </main>
